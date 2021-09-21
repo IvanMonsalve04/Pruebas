@@ -1,0 +1,82 @@
+<script>
+    function ejercicio3(){
+    num=parseInt(prompt("digite el primer numero"));
+    if(num>0){
+        console.log(num+"es mayor que 0")
+
+    }else{
+        console.log(num+" es menor que 0")
+    }
+}
+function ejercicio4() {
+    numero=parseInt(prompt("digite el primer numero"));
+   numero2=parseInt(prompt("digite el segundo numero"));
+  
+    suma=numero+numero2;
+    resta=numero-numero2;
+    mulri=numero2*numero;
+    alert("Suma = "+suma +"\n"+"Resta ="+resta+"\n"+"Multiplicacion ="+mulri);
+    
+    
+}
+function ejercicio5(){
+    numero=parseInt(prompt("digite el primer numero"));
+   numero2=parseInt(prompt("digite el segundo numero"));
+
+    selec=parseInt(prompt("digite su opcion"+"\n"+"1.suma"+"\n"
+    +"2.resta"+"\n"+"3.Multiplicar"+"\n"+"4.Dividir"+"\n"+"5.raiz"));
+    
+    
+    if(selec==1){
+        suma=numero+numero2;
+        alert(suma);
+    }
+    else if(selec==2){
+        resta=numero-numero2;
+        alert(resta);
+    }
+    else if(selec==3){
+        mult=numero*numero2;
+        alert(mult);
+    }
+    else if(selec==4){
+        div=numero/numero2;
+        alert(div);
+    }else if(selec==5){
+        rad=Math.sqrt(numero);
+        rad2=Math.sqrt(numero2);
+        alert(rad+"\n"+rad2)
+    }
+
+}
+   
+
+
+    
+</script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 4</title>
+</head>
+<style>
+    div{
+        text-align: center;
+        
+
+    }
+   
+</style>
+<body>
+    <div>
+        <h1 >Grupo 4</h1>
+        <button onclick="ejercicio3()">ejercicio3</button>
+        <button onclick="ejercicio4()">ejercicio4</button>
+        <button onclick="ejercicio5()">ejercicio5</button>
+    </div>
+   
+</body>
+</html>
