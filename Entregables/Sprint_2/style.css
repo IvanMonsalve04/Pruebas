@@ -1,15 +1,11 @@
 body{
     margin-left: 80px;
     margin-right:80px;
-    background-color: cadetblue;
+    background-color:rgba(87, 198, 231, 0.87);
 }
 *{
     
     font-family: 'Times New Roman', Times, serif;
-    
-    
-
-    
 }
 H1,H3,H4,H5,H6{
     font-size: 40px;
