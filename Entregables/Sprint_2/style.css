@@ -1,0 +1,26 @@
+body{
+    margin-left: 40px;
+    margin-right:20px;
+}
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+
+    
+}
+H1,H3,H4,H5,H6{
+    font-size: 40px;
+    text-align: center;
+}
+.po{
+    background-color: red;
+}
+ul{
+    list-style: none;
+    list-style-position: outside;
+}
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
