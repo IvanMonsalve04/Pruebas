@@ -7,13 +7,12 @@ body{
 .contenedor{
     display: grid;
     grid-template-areas:
-        'header header header'
-        'nav nav nav'
-        'footer footer footer';
+        'header'
+        'nav'
+        'footer';
 }
 
 *{
-    
     font-family: 'Times New Roman', Times, serif;
 }
 H1,H3,H4,H5,H6{
@@ -31,7 +30,7 @@ div{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
 }
-main{
+main, header{
     background-color: white;
     padding-left: 10%;
     padding-right: 10%;
@@ -43,9 +42,21 @@ main{
 }
 .formulario{
     color:black;
-   margin-left: 20%;
+    margin-left: 20%;
+    padding: 20px;
 }
 #botonesf{
     padding-left: 20%;
 
+}
+footer{
+    font-size: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+#titulofooter{
+    padding-bottom: 20px;
+}
+img{
+    border-radius: 5px;
 }
