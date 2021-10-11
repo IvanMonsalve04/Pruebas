@@ -1,0 +1,23 @@
+#contenedor{
+   
+    margin-left: 35%;
+}
+main{
+    background-color: cadetblue;
+    padding-left: 10%;
+}
+#boton{
+    margin-left: 40%;
+    padding: 20px 0px 30px 0px;
+}
+#titulos h2{
+color: rgb(226, 58, 58);
+margin-left: 20%;
+padding: 20px 0px ;
+}
+#titulos{
+    
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding: 20px 0px 30px 0px;
+}
