@@ -1,0 +1,18 @@
+p{
+    color: #CC0000;
+}
+
+#parrafo{
+    font-size: 50px;
+    padding: 16px;
+    border: 1px dashed #aaaaaa;
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: normal !important;
+}
+
+.clase{
+    color:blue;
+}

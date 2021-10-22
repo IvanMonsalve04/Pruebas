@@ -1,0 +1,64 @@
+<!<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Practicas de Formularios</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form align="center" action="210918_recibeFormulario.html" method="get" target="_blank">
+            <label> Nombre del Usuario</label>
+            <input type="text" name="nombre Usuario" placeholder="Digite su nombre del Usuario"> </input>
+            <br /> <br/>
+            <label> Contraseña</label>
+            <input type="password" name="clave usr" placeholder="digite su contraseña"/>
+            <br /> <br/>
+            <label> Palabra Clave</label>
+            <input type="text" name="palabra Clave" disabled/>
+            <br /> <br/>
+            <label> Campo Oculto</label>
+            <input type="hidden" name="oculto" value="campo oculto" />
+            <br /> <br/>
+            <label> Cédula</label>
+            <input type="number" name="cedula" step="0.02" min="2000000.00" max="999999999"/>
+            <br /> <br/>
+
+            <label> Color 1:</label> <br /> 
+            <input type="radio" id="rojo" name="colores" value="rojo"/>
+            <label for="rojo"> Rojo</label> <br /> 
+            <input type="radio" id="azul" name="colores" value="azul"/>
+            <label for="azul"> Azul</label><br /> 
+            <input type="radio" id="amarillo" name="colores" value="amarillo"/>
+            <label for="amarillo"> Amarillo</label><br /> 
+            <input type="radio" id="negro" name="colores" value="negro"/>
+            <label for="negro"> Negro</label><br /> <br />
+
+            <label> Color 2:</label> <br /> 
+            <input type="checkbox" id="rojo1" name="colores1" value="rojo"/>
+            <label for="rojo"> Rojo</label> <br /> 
+            <input type="checkbox" id="azul1" name="colores2" value="azul"/>
+            <label for="azul"> Azul</label><br /> 
+            <input type="checkbox" id="amarillo1" name="colores3" value="amarillo"/>
+            <label for="amarillo"> Amarillo</label><br /> 
+            <input type="checkbox" id="negro1" name="colores4" value="negro"/>
+            <label for="negro"> Negro</label><br /> <br />
+
+            <label> Color 3:</label> <br />
+            <select name="Seleccion_color" size="1">
+                <option value="1"> Rojo </option>
+                <option value="2"> Azul </option>
+                <option value="3"> Amarillo </option>
+                <option value="4"> Negro </option>
+            </select>
+
+            <br /> <br/>
+            <input type="reset" name="reset" value="Limpiar" />
+            <input type="submit" name="submit" value="Enviar" />
+
+        </form>
+        <script src="" async defer></script>
+    </body>
+</html>
