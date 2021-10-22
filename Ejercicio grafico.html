@@ -1,0 +1,48 @@
+    <DOCTYPE html>
+        <head>
+          <!--Cragar AJAX API-->
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+      
+            // Cargar la Visualization API and the corechart package.
+            google.charts.load('current', {'packages':['corechart']});
+      
+            // Set a callback to run when the Google Visualization API is loaded.
+            google.charts.setOnLoadCallback(drawChart);
+      
+            // 1. llamar los datos de la tabla,
+            // 2. llamar las instancias del grafico tipo torta,
+            // 3. dibujar el grafico.
+            function drawChart() {
+      
+              // tabla ensalada de frutas.
+              var data = new google.visualization.DataTable();
+              data.addColumn('string', 'Topping');
+              data.addColumn('number', 'Slices');
+              data.addRows([
+                ['banano', 2],
+                ['Pera', 3],
+                ['Kiwi', 1],
+                ['Melon', 2],
+                ['Papaya', 3]
+              ]);
+      
+              // opciones
+              var options = {'title':'Ensalada de frutas nutritiva',
+                             'width':600,
+                             'height':800};
+      
+              // Datos del pie ensalada de frutas.
+              var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+              chart.draw(data, options);
+              // datos del diagrama de barras.
+              
+            }
+          </script>
+        </head>
+      
+        <body>
+          <!--Div that will hold the pie chart-->
+          <div id="chart_div"></div>
+        </body>
+      </html>  
